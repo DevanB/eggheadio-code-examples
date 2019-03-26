@@ -1,0 +1,25 @@
+{
+  "name": "simplify-and-convert-a-traditional-react-form-to-formik",
+  "version": "1.0.0",
+  "description": "An example form built with Formik and React",
+  "keywords": [
+    "formik",
+    "react"
+  ],
+  "homepage": "https://codesandbox.io/s/zKrK5YLDZ",
+  "main": "index.js",
+  "dependencies": {
+    "formik": "1.5.1",
+    "react": "16.8.3",
+    "react-dom": "16.8.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
