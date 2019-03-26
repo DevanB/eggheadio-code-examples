@@ -2,6 +2,7 @@
   "name": "simplify-and-convert-a-traditional-react-form-to-formik",
   "version": "1.0.0",
   "description": "An example form built with Formik and React",
+  "license": "MIT",
   "keywords": [
     "formik",
     "react"
