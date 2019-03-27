@@ -1,7 +1,7 @@
-import "./index.css";
+import { Field, Form, Formik } from "formik";
 import React from "react";
 import { render } from "react-dom";
-import { Field, Form, Formik } from "formik";
+import "./index.css";
 import ItemList from "./ItemList";
 
 const App = () => {
