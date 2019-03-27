@@ -1,0 +1,47 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 0 auto;
+  max-width: 25em;
+  padding: 0 2em;
+}
+button,
+input[type="submit"] {
+  background: white;
+  border-radius: 0.25em;
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  transition: all 250ms ease;
+}
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: hsl(0, 0%, 90%);
+}
+form {
+  margin-top: 2em;
+  width: 100%;
+}
+form * {
+  display: block;
+}
+input[type="text"] {
+  font-size: 1em;
+  margin-bottom: 1em;
+  padding: 1em 0.5em;
+}
+label {
+  margin-bottom: 0.25em;
+}
+ul {
+  background: hsl(0, 0%, 90%);
+  padding: 1em 1em 1em 2em;
+}
